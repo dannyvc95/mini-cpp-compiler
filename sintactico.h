@@ -157,6 +157,7 @@ Regla* Sintacico::sint(lista<tokens> datos){
             //eleccion de estados actual
             switch(cont){
                 case 1:
+
                 case 6:
                 case 9:
                 case 11:
@@ -296,7 +297,7 @@ Regla* Sintacico::sint(lista<tokens> datos){
                     nd = new R52(pila);
                 break;
             }
-//comentar el fot???
+
             /*
             for(int i = 0; i < longReglas[cont]; i ++){
                 pila.pop();
