@@ -182,7 +182,7 @@ class R6 : public Regla{
         }
 
         char validaTipo(string ambito){
-            if(!TablaSimbolos.buscarVar(id, ambito)){
+            if(TablaSimbolos.buscarVar(id, ambito)){ /// !
                 tipoTS = tipo[0];
                 SIM.setALL(id, tipoTS, ambito);
                 TablaSimbolos.insertar(SIM);
