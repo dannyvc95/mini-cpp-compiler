@@ -155,17 +155,7 @@ Regla* Sintacico::sint(lista<tokens> datos){
             cont = (-accion) - 2;
 
             //eleccion de estados actual
-            switch(cont){
-                case 1:
-
-                case 6:
-                case 9:
-                case 11:
-                case 14:
-                case 18:
-                case 25:
-                case 28:
-                case 30:
+            switch(cont) {
                 case 32:
                     nd = NULL;
                 break;
@@ -309,7 +299,7 @@ Regla* Sintacico::sint(lista<tokens> datos){
 
             accion = tablaLR[fila][columna];
 
-            //transición
+            //transiciÃ³n
             pila.push(new NoTerminal(nomReglas[cont], nd));
             pila.push(new Estado(accion));
         }
