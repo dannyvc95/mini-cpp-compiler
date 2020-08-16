@@ -1,3 +1,2 @@
-# Compilador
-Compilador para la materia de traductores de lenguajes II en C++
-### Soon we'll have a rework for this
+# cpp-compiler
+## Trying to read this code will cause you a terrible headache, but don't worry it will be reworked soon :)
