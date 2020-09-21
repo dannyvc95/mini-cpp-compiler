@@ -1,2 +1,4 @@
-# cpp-compiler
-### An old university assignment, however I'll be refactoring the project in the future, so if you want to take a look a it right know maybe you will get a headache or something, so good luck!
+# mini-cpp-compiler
+This is a basic compiler implementation, the goal is just to show how it works the lexical analyzer and
+the semantic and syntax parsers. I'm know that maybe the code is buggy or poor optimized but I'll improving
+this repo gradually.
